@@ -60,7 +60,7 @@
     $myObj->pic_caption = $caption;
     $myObj->src_text = $text_content[0];
     $myObj->tags = $content;
-    
+
     $myJSON = json_encode($myObj);
     header('Content-Type: application/json');
     echo $myJSON;

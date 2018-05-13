@@ -24,14 +24,16 @@ $("[id='urlBtn']").click(function(){
         url:"develop/AjaxTest.php",//服务器
         data: $("[id='urlInput']").val(),
         success: function(data){
+            alert(333);
             var dataObj = JSON.parse(data);
             //console.log(data);
             //data.prc_url;
+            alert(444);
             alert(dataObj.tags);
-            var html='<div class="img lazy-img" style="padding-bottom: 60.10738255033557%;"><img data-src=String('+dataObj.prc_url+') alt=""></div>';
-            $("#imgout").append(html);
-            var html='<p class="indents-2" id="captionresult">'+dataObj.pic_caption+dataObj.src_text+dataObj.tags;+'</p>';
-            $("#captionresult").append(html);
+            var html1='<div class="img lazy-img" style="padding-bottom: 60.10738255033557%;"><img data-src=String('+dataObj.prc_url+') alt=""></div>';
+            $("[id='imgout']").append(html1);
+            var html2='<p class="indents-2" id="captionresult">'+dataObj.pic_caption+dataObj.src_text+dataObj.tags;+'</p>';
+            $("[id='captionresult']").append(html2);
             //data.src_text;
             //data.tags;
         }
