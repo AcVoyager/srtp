@@ -25,6 +25,12 @@
     $content = fread($myfile, filesize("python_to_php"));
     echo $content;
     echo("<br>");
+
+    $ajaxArr = array();
+    exec("./getImageCaption.sh", $ajaxArr);
+    //todo maybe need sleep
+    var_dump($ajaxArr);
+    echo "<br>";
     
     $myObj->pic_url = $pic_url;
     $myObj->pic_caption = "To be decided";
