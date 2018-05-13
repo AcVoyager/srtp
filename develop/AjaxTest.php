@@ -1,8 +1,8 @@
 <?php
     $weburl = $_POST['myurl'];//GET是测试用的
 
-    $weburltemp = explode('srtp/', $weburl);
-    $weburl = "../" . $weburl;//todo
+    $weburltemp = explode('web/', $weburl);
+    $weburl = "../" . $weburltemp[1];//todo
 
     $content = file_get_contents($weburl);
     $arr = explode('<P>', $content);
