@@ -27,14 +27,17 @@
     echo("<br>");
 
     $ajaxArr = array();
-    exec("./getImageCaption.sh", $ajaxArr);
-    var_dump($ajaxArr);
-    $caption = $ajaxArr[1];
-    $caption = json_decode($ajaxArr[1]);
+    exec("./getImageCaption.sh > captionTemp.json");
+//    var_dump($ajaxArr);
+    $captionFile = fopen("captionTemp.json", "r");
+    $caption = fread($captionFile, filesize("captionTemp.json"));
+    $caption = json_decode($caption);
+    $caption = $caption->output;
+    fclose($captionFile);
 //    echo "<br>";
     
     $myObj->pic_url = $pic_url;
-    $myObj->pic_caption = $caption->output;
+    $myObj->pic_caption = $caption;
     $myObj->src_text = $text_content[0];
     $myObj->tags = $content;
 
