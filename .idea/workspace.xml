@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceda7925-ec86-437b-9089-c9149c2f0525" name="Default" comment="vs 0.9.3">
+    <list default="true" id="ceda7925-ec86-437b-9089-c9149c2f0525" name="Default" comment="vs 0.9.6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/caption.js" afterPath="$PROJECT_DIR$/js/caption.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,15 +24,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
-              <caret line="231" column="79" lean-forward="false" selection-start-line="231" selection-start-column="17" selection-end-line="231" selection-end-column="79" />
+            <state relative-caret-position="259">
+              <caret line="125" column="41" lean-forward="false" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1526224873514" expanded="true" signature="568:1012" ph="..." />
-                <marker date="1526224873514" expanded="true" signature="586:638" ph="..." />
-                <marker date="1526224873514" expanded="true" signature="639:963" ph="..." />
-                <marker date="1526224873514" expanded="true" signature="714:951" ph="..." />
-                <marker date="1526224873514" expanded="true" signature="814:938" ph="..." />
               </folding>
             </state>
           </provider>
@@ -40,8 +36,8 @@
       <file leaf-file-name="AjaxTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/develop/AjaxTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="8" />
+            <state relative-caret-position="-1080">
+              <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -50,34 +46,13 @@
       <file leaf-file-name="caption.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/caption.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="33" column="85" lean-forward="false" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1526225204708" expanded="true" signature="797:832" ph="..." />
-                <marker date="1526225204708" expanded="true" signature="1016:1031" ph="..." />
-                <marker date="1526225204708" expanded="true" signature="1197:1212" ph="..." />
-                <marker date="1526225204708" expanded="true" signature="1376:1391" ph="..." />
+                <marker date="1526228392800" expanded="true" signature="706:721" ph="..." />
+                <marker date="1526228392800" expanded="true" signature="887:902" ph="..." />
+                <marker date="1526228392800" expanded="true" signature="1066:1081" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testhtml/test2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testhtml/test1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -90,6 +65,8 @@
       <find>myurl</find>
       <find>&lt;br&gt;</find>
       <find>echo</find>
+      <find>p class=&quot;indents-2&quot; id=&quot;captionresult3&quot;style=&quot;color: #6b0909;&quot;</find>
+      <find>news</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,8 +80,8 @@
         <option value="$PROJECT_DIR$/testhtml/test1.html" />
         <option value="$PROJECT_DIR$/testhtml/test2" />
         <option value="$PROJECT_DIR$/develop/AjaxTest.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/caption.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -143,16 +120,6 @@
               <item name="srtp" type="b2602c69:ProjectViewProjectNode" />
               <item name="srtp" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="srtp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="srtp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="srtp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="srtp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="testhtml" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -188,8 +155,154 @@
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/develop/captionTemp.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/develop/php_to_python</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/develop/python_to_php</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/develop/showWebUrl</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/.DS_Store</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/TM_logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/ajaxImages/sample1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/ajaxImages/sample2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/blank.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/camera-loader.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/fancybox_loading.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/fancybox_loading@2x.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/fancybox_overlay.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/fancybox_sprite.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/fancybox_sprite@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gallery/01.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gallery/02.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gallery/03.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gallery/04.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gallery/05.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gallery/06.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gallery/07.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gallery/08.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gallery/09.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gmap_marker.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gmap_marker_active.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/ie8-panel/warning_bar_0000_us.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/lazy-loader.gif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img10.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img100.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img11.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img12.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img13.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img14.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img15.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img16.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img17.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img18.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img19.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img20.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img21.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img22.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img23.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img24.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img25.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img26.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img27.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img28.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img29.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img30.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img31.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img32.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img33.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img34.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img35.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img36.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img37.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img38.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img39.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img40.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img41.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img42.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img43.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img44.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img45.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img46.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img47.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img48.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img49.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img5.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img50.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img51.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img52.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img53.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img54.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img55.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img56.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img57.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img58.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img59.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img6.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img60.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img61.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img62.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img63.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img64.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img65.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img66.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img67.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img68.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img69.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img7.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img70.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img71.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img72.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img73.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img74.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img75.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img76.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img77.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img78.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img79.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img8.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img80.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img81.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img82.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img83.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img84.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img85.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img86.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img87.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img88.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img89.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img9.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img90.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img91.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img92.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img93.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img94.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img95.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img96.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img97.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img98.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/library/img99.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/page-1_img01.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/page-1_img02.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/page-1_img12.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/page-1_img13.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/page-1_img14.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/parallax01.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/parallax02.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/parallax03.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/parallax04.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/parallax05.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/select.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/slide01.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/slide01_thumb.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/slide02.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/slide02_thumb.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/slide03.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/slide03_thumb.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/xjpdx.jpg</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/js/caption.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/testhtml/test1.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/testhtml/test2.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -197,6 +310,9 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/dby.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gxw.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/xc.png</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -204,6 +320,9 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/dby.PNG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/gxw.PNG</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/images/xc.PNG</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -382,7 +501,7 @@
       <workItem from="1525844552703" duration="3173000" />
       <workItem from="1526125249783" duration="2863000" />
       <workItem from="1526199032335" duration="133000" />
-      <workItem from="1526199179226" duration="21030000" />
+      <workItem from="1526199179226" duration="22893000" />
     </task>
     <task id="LOCAL-00001" summary="test neural-talk2 api">
       <created>1526199925205</created>
@@ -538,11 +657,25 @@
       <option name="project" value="LOCAL" />
       <updated>1526224895103</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="vs 0.9.6">
+      <created>1526225789397</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1526225789397</updated>
+    </task>
+    <task id="LOCAL-00024" summary="vs 0.9.6">
+      <created>1526228188390</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1526228188390</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28628000" />
+    <option name="totallyTimeSpent" value="30491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,8 +688,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17435622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17435622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.49577168" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -591,7 +725,8 @@
     <MESSAGE value="vs 0.9.2" />
     <MESSAGE value="vs 0.9.3" />
     <MESSAGE value="vs 0.9.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="vs 0.9.5" />
+    <MESSAGE value="vs 0.9.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="vs 0.9.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -843,11 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/ajaxImages/sample1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/develop/AjaxTest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -872,22 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop/AjaxTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testhtml/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testhtml/test1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -896,30 +1010,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testhtml/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ajaxImages/sample1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ajaxImages/sample2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/develop/AjaxTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="390" column="4" lean-forward="false" selection-start-line="390" selection-start-column="4" selection-end-line="390" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/caption.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="33" column="85" lean-forward="false" selection-start-line="33" selection-start-column="85" selection-end-line="33" selection-end-column="85" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1526225204708" expanded="true" signature="797:832" ph="..." />
-            <marker date="1526225204708" expanded="true" signature="1016:1031" ph="..." />
-            <marker date="1526225204708" expanded="true" signature="1197:1212" ph="..." />
-            <marker date="1526225204708" expanded="true" signature="1376:1391" ph="..." />
+            <marker date="1526228392800" expanded="true" signature="706:721" ph="..." />
+            <marker date="1526228392800" expanded="true" signature="887:902" ph="..." />
+            <marker date="1526228392800" expanded="true" signature="1066:1081" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="231" column="79" lean-forward="false" selection-start-line="231" selection-start-column="17" selection-end-line="231" selection-end-column="79" />
+        <state relative-caret-position="259">
+          <caret line="125" column="41" lean-forward="false" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1526224873514" expanded="true" signature="568:1012" ph="..." />
-            <marker date="1526224873514" expanded="true" signature="586:638" ph="..." />
-            <marker date="1526224873514" expanded="true" signature="639:963" ph="..." />
-            <marker date="1526224873514" expanded="true" signature="714:951" ph="..." />
-            <marker date="1526224873514" expanded="true" signature="814:938" ph="..." />
           </folding>
         </state>
       </provider>

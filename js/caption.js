@@ -1,15 +1,6 @@
-
-var myurl = document.getElementById("urlInput");
-var urlbtn = document.getElementById("urlBtn");
-var caprst = document.getElementById("captionresult");
-
 //给后端请求ajax
 //返回 JSON
 
-alert(111);
-//caprst.innerHTML = String(caprst);
-
-//alert($('#urlInput'));
 $(document).ready(function () {
     $("[id='urlBtn']").click(function () {
         //alert(222);
@@ -20,11 +11,7 @@ $(document).ready(function () {
                 "myurl": $("[id='urlInput']").val()
             },
             function callback (data) {
-                //alert(333);
-                
-                var dataObj = JSON.parse(JSON.stringify(data));
-                //alert(444);
-                //alert(dataObj.tags);
+                var dataObj = JSON.parse(JSON.stringify(data));;
                 var html='<img src='+dataObj.pic_url.substring(3)+ ' id="imgout" position:absolut; left:50%; top:50%; transform:translateX(-50%) translateY(-50%);  ></img>';
                 $("[id='imgout']").replaceWith(html);
                 html='<figcaption class="indents-2" id="captionresult1"style="color: #6b0909;">'+dataObj.tags+'</figcaption>';
