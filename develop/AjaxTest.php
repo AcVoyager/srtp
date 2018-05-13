@@ -1,10 +1,19 @@
 <?php
+    $weburl = "nothing";
     $weburl = $_POST['myurl'];//GET是测试用的
-
+    
+    $lll = fopen("showWebUrl", "w");
+    fwrite($lll, $weburl);
+    
     $weburltemp = explode('web/', $weburl);
     $weburl = "../" . $weburltemp[1];//todo
+    
+    fwrite($lll, "weburl = ".$weburl."\n");
 
     $content = file_get_contents($weburl);
+    
+    fwrite($lll, $content);
+    
     $arr = explode('<P>', $content);
     $text_content = explode('</P>', $arr[1]);
     //echo $text_content[0];
@@ -20,6 +29,8 @@
     $pic_url = $pic_url[0];
     //echo $pic_url;
     //echo("<br>");
+
+    fwrite($lll, "\npic_url = ".$pic_url);
 
     exec("python3.5 hanlptest.py 2>&1", $output);
     //print_r($output);
@@ -64,6 +75,10 @@
     $myJSON = json_encode($myObj);
     header('Content-Type: application/json');
     echo $myJSON;
+
+    $ttt = json_decode($myJSON);
+    fwrite($lll, $ttt->pic_url."\n".$ttt->pic_caption."\n".$ttt->src_text."\n".$ttt->tags);
+    fclose($lll);
     /*$myJSON = json_decode($myJSON);
     echo ($myJSON->pic_url);
     echo "<br>";

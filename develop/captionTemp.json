@@ -1,1 +1,4 @@
-{"err": "error processing given inputs from request"}
+{
+    "output": "a man riding a motorcycle down a street\n", 
+    "job_id": 1500735
+}
