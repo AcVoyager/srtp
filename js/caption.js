@@ -27,11 +27,11 @@ $(document).ready(function () {
                 alert(dataObj.tags);
                 var html='<div class="img lazy-img" style="padding-bottom: 60.10738255033557%;"><img data-src='+dataObj.pic_url+' alt=""></div>';
                 $("[id='imgout']").replaceWith(html);
-                html='<p class="indents-2" id="captionresult1">'+dataObj.tags+'</p>';
+                html='<figcaption class="indents-2" id="captionresult1"style="color: #6b0909;">'+dataObj.tags+'</figcaption>';
                 $("[id='captionresult1']").replaceWith(html);
-                html='<p class="indents-2" id="captionresult2">'+dataObj.pic_caption+'</p>';
+                html='<h3 class="indents-2" id="captionresult2"style="color: #6b0909;">'+dataObj.pic_caption+'</h3>';
                 $("[id='captionresult2']").replaceWith(html);
-                html='<p class="indents-2" id="captionresult3">'+dataObj.src_text+'</p>';
+                html='<p class="indents-2" id="captionresult3"style="color: #6b0909;">'+dataObj.src_text+'</p>';
                 $("[id='captionresult3']").replaceWith(html);
             }
         );
