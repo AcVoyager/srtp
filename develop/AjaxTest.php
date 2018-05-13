@@ -38,8 +38,8 @@
     // sleep(2);
     $myfile = fopen("python_to_php", "r");
     $content = fread($myfile, filesize("python_to_php"));
-    echo $content;
-    echo("<br>");
+    //echo $content;
+    //echo("<br>");
 
     $ajaxArr = array();
     exec("curl -F 'image=@" . $pic_url . "' -H 'api-key:a85afe89-a18b-4691-a932-edb39071475b' https://api.deepai.org/api/neuraltalk > captionTemp.json");
