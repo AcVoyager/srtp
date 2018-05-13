@@ -35,7 +35,15 @@
     $caption = $caption->output;
     fclose($captionFile);
 //    echo "<br>";
-    
+
+    include "baidu_transapi.php";
+    $caption = translate($caption, "en", "zh");
+    $caption = $caption["trans_result"][0]["dst"];
+
+    $caption = iconv("GBK", "UTF-8", $caption);
+    $text_content[0] = iconv("GBK", "UTF-8", $text_content[0]);
+    $content = iconv("GBK", "UTF-8", $content);
+
     $myObj->pic_url = $pic_url;
     $myObj->pic_caption = $caption;
     $myObj->src_text = $text_content[0];
