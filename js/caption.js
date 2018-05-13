@@ -19,7 +19,7 @@ $(document).ready(function () {
             {
                 "myurl": $("[id='urlInput']").val()
             },
-            function (data) {
+            function callback (data) {
                 alert(333);
                 var dataObj = JSON.parse(data);
                 alert(444);
