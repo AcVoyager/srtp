@@ -40,9 +40,16 @@
     $caption = translate($caption, "en", "zh");
     $caption = $caption["trans_result"][0]["dst"];
 
-    $caption = iconv("GBK", "UTF-8", $caption);
-    $text_content[0] = iconv("GBK", "UTF-8", $text_content[0]);
-    $content = iconv("GBK", "UTF-8", $content);
+//    $caption = iconv("GBK", "UTF-8", $caption);
+//    $text_content[0] = iconv("GBK", "UTF-8", $text_content[0]);
+//    $content = iconv("GBK", "UTF-8", $content);
+
+    $encoding = mb_detect_encoding($caption, mb_detect_order(), false);
+    echo "encoding of caption is $encoding.<br>";
+    $encoding = mb_detect_encoding($text_content[0], mb_detect_order(), false);
+    echo "encoding of src text is $text_content[0].<br>";
+    $encoding = mb_detect_encoding($content, mb_detect_order(), false);
+    echo "encoding of content is $content.<br>";
 
     $myObj->pic_url = $pic_url;
     $myObj->pic_caption = $caption;
@@ -50,5 +57,6 @@
     $myObj->tags = $content;
 
     $myJSON = json_encode($myObj);
+
     echo $myJSON;
 ?>
