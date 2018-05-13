@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ceda7925-ec86-437b-9089-c9149c2f0525" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/develop/AjaxTest.php" afterPath="$PROJECT_DIR$/develop/AjaxTest.php" />
+      <change beforePath="$PROJECT_DIR$/js/caption.js" afterPath="$PROJECT_DIR$/js/caption.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AjaxTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AjaxTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/develop/AjaxTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -40,13 +40,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="caption.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="caption.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/caption.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            <state relative-caret-position="408">
+              <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
-                <marker date="1526215925480" expanded="true" signature="857:892" ph="..." />
+                <marker date="1526216415305" expanded="true" signature="858:893" ph="..." />
               </folding>
             </state>
           </provider>
@@ -78,10 +78,10 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/develop/getImageCaption.sh" />
-        <option value="$PROJECT_DIR$/js/caption.js" />
         <option value="$PROJECT_DIR$/testhtml/test1.html" />
         <option value="$PROJECT_DIR$/testhtml/test2" />
         <option value="$PROJECT_DIR$/develop/AjaxTest.php" />
+        <option value="$PROJECT_DIR$/js/caption.js" />
       </list>
     </option>
   </component>
@@ -356,7 +356,7 @@
       <workItem from="1525844552703" duration="3173000" />
       <workItem from="1526125249783" duration="2863000" />
       <workItem from="1526199032335" duration="133000" />
-      <workItem from="1526199179226" duration="12559000" />
+      <workItem from="1526199179226" duration="12769000" />
     </task>
     <task id="LOCAL-00001" summary="test neural-talk2 api">
       <created>1526199925205</created>
@@ -435,11 +435,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526215980529</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="vs 0.9.2">
+      <created>1526216216447</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1526216216447</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20157000" />
+    <option name="totallyTimeSpent" value="20367000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -775,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testhtml/test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testhtml/test2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -791,21 +790,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/caption.js">
+    <entry file="file://$PROJECT_DIR$/develop/AjaxTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding>
-            <marker date="1526215925480" expanded="true" signature="857:892" ph="..." />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/develop/AjaxTest.php">
+    <entry file="file://$PROJECT_DIR$/testhtml/test1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/caption.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <marker date="1526216415305" expanded="true" signature="858:893" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ $("[id='urlBtn']").click(function(){
     htmlobj=$.ajax({
         type:'POST',
         //url:"/jquery/test1.txt",
-        url:"../testhtml/test1.html",//服务器
+        url:"../develop/AjaxTest.php",//服务器
         data: $("[id='urlInput']").val(),
         success: function(data){
             var dataObj = JSON.parse(data);
