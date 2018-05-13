@@ -9,34 +9,36 @@ var caprst=document.getElementById("captionresult");
 alert(111);
 //caprst.innerHTML = String(caprst);
 
-$('#urlBtn').click(function(){
-    $(document).ready(function(){
-        $("#urlBtn").click(function(){
-            alert($("#urlInput"));
-            alert(112);
-        htmlobj=$.ajax({
-            type:'POST',
-            //url:"/jquery/test1.txt",
-
-            url:"../develop/AjaxTest.php",//服务器
-            data: $('#urlInput').value,
-            success: function(data){
-                alert(data);
-                console.log(data);
-                //data.prc_url;
-                var html='<div class="img lazy-img" style="padding-bottom: 60.10738255033557%;"><img data-src=String('+data.prc_url+') alt=""></div>';
-                $("#imgout").append(html);
-                var html='<p class="indents-2" id="captionresult">'+pic_caption+data.src_text+data.tags;+'</p>';
-                $("#captionresult").append(html);
-               // data.src_text;
-                //data.tags;
-            },
-        });
-        });
+//alert($('#urlInput'));
+//$(document).ready(function(){
+    //console.log(333);
+    //alert(112);
+//alert($("[id='urlInput']").val());
+$(function(){    
+$("[id='urlBtn']").click(function(){
+    //alert(222);
+    alert($("[id='urlInput']").val());
+    htmlobj=$.ajax({
+        type:'POST',
+        //url:"/jquery/test1.txt",
+        url:"../testhtml/test1.html",//服务器
+        data: $("[id='urlInput']").val(),
+        success: function(data){
+            var dataObj = JSON.parse(data);
+            //console.log(data);
+            //data.prc_url;
+            alert(dataObj.tags);
+            var html='<div class="img lazy-img" style="padding-bottom: 60.10738255033557%;"><img data-src=String('+dataObj.prc_url+') alt=""></div>';
+            $("#imgout").append(html);
+            var html='<p class="indents-2" id="captionresult">'+dataObj.pic_caption+dataObj.src_text+dataObj.tags;+'</p>';
+            $("#captionresult").append(html);
+            //data.src_text;
+            //data.tags;
+        },
+    });
     });
 })
-
-
+//});
 
 //请求myurl
 
