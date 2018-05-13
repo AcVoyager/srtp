@@ -28,7 +28,7 @@
 
     $ajaxArr = array();
     exec("./getImageCaption.sh", $ajaxArr);
-//    var_dump($ajaxArr);
+    var_dump($ajaxArr);
     $caption = $ajaxArr[1];
     $caption = json_decode($ajaxArr[1]);
 //    echo "<br>";
