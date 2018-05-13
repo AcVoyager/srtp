@@ -12,12 +12,16 @@ alert(111);
 $('#urlBtn').click(function(){
     $(document).ready(function(){
         $("#urlBtn").click(function(){
+            alert($("#urlInput"));
+            alert(112);
         htmlobj=$.ajax({
             type:'POST',
             //url:"/jquery/test1.txt",
+
             url:"../develop/AjaxTest.php",//服务器
-            data: $('#urlInput'),
+            data: $('#urlInput').value,
             success: function(data){
+                alert(data);
                 console.log(data);
                 //data.prc_url;
                 var html='<div class="img lazy-img" style="padding-bottom: 60.10738255033557%;"><img data-src=String('+data.prc_url+') alt=""></div>';
@@ -31,6 +35,9 @@ $('#urlBtn').click(function(){
         });
     });
 })
+
+
+
 //请求myurl
 
 //接收返回的东西
