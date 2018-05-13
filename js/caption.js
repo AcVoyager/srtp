@@ -34,7 +34,7 @@ $("[id='urlBtn']").click(function(){
             $("#captionresult").append(html);
             //data.src_text;
             //data.tags;
-        },
+        }
     });
     });
 })
