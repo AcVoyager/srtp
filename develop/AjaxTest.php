@@ -28,12 +28,13 @@
 
     $ajaxArr = array();
     exec("./getImageCaption.sh", $ajaxArr);
-    //todo maybe need sleep
-    var_dump($ajaxArr);
-    echo "<br>";
+//    var_dump($ajaxArr);
+    $caption = $ajaxArr[1];
+    $caption = json_decode($ajaxArr[1]);
+//    echo "<br>";
     
     $myObj->pic_url = $pic_url;
-    $myObj->pic_caption = "To be decided";
+    $myObj->pic_caption = $caption->output;
     $myObj->src_text = $text_content[0];
     $myObj->tags = $content;
 
