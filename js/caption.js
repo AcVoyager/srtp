@@ -20,12 +20,12 @@ $(document).ready(function () {
                 "myurl": $("[id='urlInput']").val()
             },
             function callback (data) {
-                alert(333);
+                //alert(333);
                 
                 var dataObj = JSON.parse(JSON.stringify(data));
-                alert(444);
-                alert(dataObj.tags);
-                var html='<div class="img lazy-img" style="padding-bottom: 60.10738255033557%;"><img data-src='+dataObj.pic_url+' alt=""></div>';
+                //alert(444);
+                //alert(dataObj.tags);
+                var html='<img src='+dataObj.pic_url+ ' id="imgout" position:absolut; left:50%; top:50%; transform:translateX(-50%) translateY(-50%);  ></img>';
                 $("[id='imgout']").replaceWith(html);
                 html='<figcaption class="indents-2" id="captionresult1"style="color: #6b0909;">'+dataObj.tags+'</figcaption>';
                 $("[id='captionresult1']").replaceWith(html);
