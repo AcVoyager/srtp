@@ -47,9 +47,9 @@
     $encoding = mb_detect_encoding($caption, mb_detect_order(), false);
     echo "encoding of caption is $encoding.<br>";
     $encoding = mb_detect_encoding($text_content[0], mb_detect_order(), false);
-    echo "encoding of src text is $text_content[0].<br>";
+    echo "encoding of src text is $encoding.<br>";
     $encoding = mb_detect_encoding($content, mb_detect_order(), false);
-    echo "encoding of content is $content.<br>";
+    echo "encoding of content is $encoding.<br>";
 
     $myObj->pic_url = $pic_url;
     $myObj->pic_caption = $caption;
@@ -57,6 +57,5 @@
     $myObj->tags = $content;
 
     $myJSON = json_encode($myObj);
-
     echo $myJSON;
 ?>
