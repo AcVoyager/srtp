@@ -21,12 +21,13 @@ $(document).ready(function () {
             },
             function callback (data) {
                 alert(333);
-                var dataObj = JSON.parse(data);
+                
+                var dataObj = JSON.parse(JSON.stringify(data));
                 alert(444);
                 alert(dataObj.tags);
-                var html1 = '<div class="img lazy-img" style="padding-bottom: 60.10738255033557%;"><img data-src=String(' + dataObj.prc_url + ') alt=""></div>';
+                var html1 = '<div class="img lazy-img" style="padding-bottom: 60.10738255033557%;"><img data-src=String(' + dataObj.pic_url + ') alt=""></div>';
                 $("[id='imgout']").append(html1);
-                var html2 = '<p class="indents-2" id="captionresult">' + dataObj.pic_caption + dataObj.src_text + dataObj.tags; +'</p>';
+                var html2 = '<p class="indents-2" id="captionresult">' + dataObj.pic_caption + dataObj.src_text + '<br/>' + dataObj.tags; +'</p>';
                 $("[id='captionresult']").append(html2);
             }
         );
