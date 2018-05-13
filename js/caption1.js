@@ -25,14 +25,10 @@ $(document).ready(function () {
                 var dataObj = JSON.parse(JSON.stringify(data));
                 alert(444);
                 alert(dataObj.tags);
-                var html='<div class="img lazy-img" style="padding-bottom: 60.10738255033557%;"><img data-src='+dataObj.pic_url+' alt=""></div>';
-                $("[id='imgout']").replaceWith(html);
-                html='<p class="indents-2" id="captionresult1">'+dataObj.tags+'</p>';
-                $("[id='captionresult1']").replaceWith(html);
-                html='<p class="indents-2" id="captionresult2">'+dataObj.pic_caption+'</p>';
-                $("[id='captionresult2']").replaceWith(html);
-                html='<p class="indents-2" id="captionresult3">'+dataObj.src_text+'</p>';
-                $("[id='captionresult3']").replaceWith(html);
+                var html1 = '<div class="img lazy-img" style="padding-bottom: 60.10738255033557%;"><img data-src=String(' + dataObj.pic_url + ') alt=""></div>';
+                $("[id='imgout']").append(html1);
+                var html2 = '<p class="indents-2" id="captionresult">' + dataObj.pic_caption + dataObj.src_text + '<br/>' + dataObj.tags; +'</p>';
+                $("[id='captionresult']").append(html2);
             }
         );
     });
