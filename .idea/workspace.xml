@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ceda7925-ec86-437b-9089-c9149c2f0525" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/testhtml/test2.html" afterPath="$PROJECT_DIR$/testhtml/test2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -396,7 +395,7 @@
       <workItem from="1526125249783" duration="2863000" />
       <workItem from="1526199032335" duration="133000" />
       <workItem from="1526199179226" duration="23009000" />
-      <workItem from="1526613535829" duration="3594000" />
+      <workItem from="1526613535829" duration="3601000" />
     </task>
     <task id="LOCAL-00001" summary="test neural-talk2 api">
       <created>1526199925205</created>
@@ -608,11 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526616917257</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="final 02.2">
+      <created>1526617135609</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1526617135609</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34201000" />
+    <option name="totallyTimeSpent" value="34208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
