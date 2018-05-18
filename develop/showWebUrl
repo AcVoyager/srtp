@@ -15,12 +15,12 @@ http://47.100.49.206/srtp/web/testhtml/test2.htmlweburl = ../testhtml/test2.html
     公报提到，为了确保相关工作的公开透明，将会允许国际记者团前往现场采访。由于核试验场设施狭窄，国际记者团仅限于来自中国、俄罗斯、美国、英国和韩国的记者前往。
 
 </P>
-<img src=images/ajaxImages/sample2.jpg>
+<img src=../images/ajaxImages/sample2.jpg>
 </body>
 </html>
 
-pic_url = images/ajaxImages/sample2.jpgimages/ajaxImages/sample2.jpg
-
+pic_url = ../images/ajaxImages/sample2.jpg../images/ajaxImages/sample2.jpg
+一个身着西装领带的男子站在麦克风前面
 
     据韩联社报道，韩国青瓦台发言人金宜谦13日在记者会上表示，朝方宣布本月23日至25日期间通过爆破方式废弃北部核试验场，体现出朝方将在韩朝首脑会谈上的承诺落实到行动上，韩方对此表示欢迎。
     据报道，金宜谦表示，愿在朝美首脑会谈前，两国领导人进一步加深互信。他指出，邀请韩、中、美、英、俄记者到现场采访，体现本次核试验场废弃活动的透明性。
@@ -34,5 +34,3 @@ pic_url = images/ajaxImages/sample2.jpgimages/ajaxImages/sample2.jpg
 表示
 记者
 公报
-废弃
-坑道
