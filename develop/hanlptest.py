@@ -4,7 +4,7 @@ document = f.read()
 f.close();
 #err = open("error.log", "w")
 #err.write(document)
-ls = HanLP.extractKeyword(document, 4)
+ls = HanLP.extractKeyword(document, 3)
 #print(ls)
 target = open("python_to_php", "w", encoding="utf-8")
 for item in ls:
